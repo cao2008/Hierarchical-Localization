@@ -1,3 +1,10 @@
+tips：
+1. https://www.visuallocalization.net/benchmark/   LONG-TERM VISUAL LOCALIZATION Top2
+2. SuperPoint 提取特征点及描述符，SuperGlue 做特征点匹配； 深度学习特征提取
+3. 有3D点云，视觉特征更靠谱？？  6DOF估计，需要SFM及三维重建，如果有点云，则不需要
+   图像检索作为特征匹配的初值。
+4. 拓展应用到SFM。   
+
 # hloc - the hierarchical localization toolbox
 
 This is `hloc`, a modular toolbox for state-of-the-art 6-DoF visual localization. It implements [Hierarchical Localization](https://arxiv.org/abs/1812.03506), leveraging image retrieval and feature matching, and is fast, accurate, and scalable. This codebase won the indoor/outdoor localization challenges at [CVPR 2020](https://sites.google.com/view/vislocslamcvpr2020/home) and [ECCV 2020](https://sites.google.com/view/ltvl2020/), in combination with [SuperGlue](https://psarlin.com/superglue/), our graph neural network for feature matching.
