@@ -1,9 +1,13 @@
-tips：
-1. https://www.visuallocalization.net/benchmark/   LONG-TERM VISUAL LOCALIZATION Top2
-2. SuperPoint 提取特征点及描述符，SuperGlue 做特征点匹配； 深度学习特征提取
-3. 有3D点云，视觉特征更靠谱？？  6DOF估计，需要SFM及三维重建，如果有点云，则不需要
-   图像检索作为特征匹配的初值。
-4. 拓展应用到SFM。   
+基于高精地图的视觉定位技术：
+  https://mp.weixin.qq.com/s/9M7S1YLHKSQrAoy2PidJPA    基于高精地图的视觉定位技术总结
+   1. 自动驾驶车辆在结构化场景中基于HD-Map由粗到精语义定位    视觉定位 Coarse-to-fine Semantic Localization with HD Map for Autonomous Driving in Structural Scenes  2021年论文，无代码
+   2. Monocular Localization with Vector HD Map(MLVHM): A Low Cost Method for Commerial IVs 2020年，基于视觉与矢量地图，slam加定位。
+   3. From Coarse to Fine: Robust Hierarchical Localization at Large Scale 2019 大范围用检索的方式，小范围用特征匹配 
+     1） https://www.visuallocalization.net/benchmark/   LONG-TERM VISUAL LOCALIZATION Top2
+     2）SuperPoint 提取特征点及描述符，SuperGlue 做特征点匹配； 深度学习特征提取
+     3）有3D点云，视觉特征更靠谱？？  6DOF估计，需要SFM及三维重建，如果有点云，则不需要
+       图像检索作为特征匹配的初值。
+     4）拓展应用到SFM。   
 
 # hloc - the hierarchical localization toolbox
 
