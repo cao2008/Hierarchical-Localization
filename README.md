@@ -8,6 +8,9 @@
      3）有3D点云，视觉特征更靠谱？？  6DOF估计，需要SFM及三维重建，如果有点云，则不需要
        图像检索作为特征匹配的初值。
      4）拓展应用到SFM。   
+     
+    4. 基于地图的视觉定位 这里地图值自建地图 https://github.com/TurtleZhong/Map-based-Visual-Localization
+    5. D3Feat  算法同学使用。点云深度学习特征，实现特征检测器和特征描述子的联合学习。 
 
 # hloc - the hierarchical localization toolbox
 
